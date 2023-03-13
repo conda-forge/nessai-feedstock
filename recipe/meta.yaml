@@ -23,6 +23,7 @@ requirements:
     - setuptools-scm
   run:
     - glasflow
+    - h5py
     - matplotlib-base >=2.0
     - numpy >=1.9
     - pandas
