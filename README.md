@@ -1,11 +1,11 @@
-About nessai
-============
+About nessai-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nessai-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mj-will/nessai
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nessai-feedstock/blob/main/LICENSE.txt)
 
 Summary: nessai: Nested Sampling with Artificial Intelligence
 
