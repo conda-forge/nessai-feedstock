@@ -1,5 +1,5 @@
 {% set name = "nessai" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nessai-{{ version }}.tar.gz
-  sha256: 682549b4118f4a5908641d8061abcfac7c52b105b4aa093a57ab74124ac2b2d5
+  sha256: 51a749b0d21ae3938d50b6d2893fa6f7766f37ef1702fdb73bd41d56d96b319d
 
 build:
   number: 0
@@ -28,7 +28,7 @@ requirements:
     - numpy >=1.9
     - pandas
     - python >=3.7
-    - scipy >=0.16,<1.10
+    - scipy >=0.16
     - seaborn
     - pytorch >=1.11.0
     - tqdm
