@@ -11,14 +11,14 @@ source:
   sha256: 5c59401b3e884049d0fa72f8f415442930bd1cc3647ddbf1340d49a5b0947ca3
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.7,<3.12
+    - python >=3.7
     - setuptools
     - setuptools-scm
   run:
@@ -27,7 +27,7 @@ requirements:
     - matplotlib-base >=2.0
     - numpy >=1.9
     - pandas
-    - python >=3.7,<3.12
+    - python >=3.7
     - scipy >=0.16
     - seaborn
     - pytorch >=1.11.0
