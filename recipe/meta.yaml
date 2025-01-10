@@ -32,6 +32,7 @@ requirements:
     - seaborn
     - pytorch >=1.11.0
     - tqdm
+    - importlib-metadata  # [py<310]
 
 test:
   requires:
@@ -39,6 +40,7 @@ test:
     - corner
     - pytest >=0.6.0
     - pytest-cov
+    - pytest-integration
     - pytest-rerunfailures
     - pytest-timeout
     - python {{ python_min }}
