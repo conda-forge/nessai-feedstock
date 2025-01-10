@@ -1,5 +1,5 @@
 {% set name = "nessai" %}
-{% set version = "0.13.2" %}
+{% set version = "0.14.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nessai-{{ version }}.tar.gz
-  sha256: aefef189fef38f833755ee6bc9baa57fd826f6dcac2adcc9c1b282e52b350865
+  sha256: 2ed57c5fb37ee1a9253d1e059cd95b1ba7a70fbd23270c163af077b1449aaaf9
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -32,6 +32,7 @@ requirements:
     - seaborn
     - pytorch >=1.11.0
     - tqdm
+    - importlib-metadata
 
 test:
   requires:
@@ -39,6 +40,7 @@ test:
     - corner
     - pytest >=0.6.0
     - pytest-cov
+    - pytest-integration
     - pytest-rerunfailures
     - pytest-timeout
     - python {{ python_min }}
