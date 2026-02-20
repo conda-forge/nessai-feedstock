@@ -1,5 +1,5 @@
 {% set name = "nessai" %}
-{% set version = "0.15.1" %}
+{% set version = "0.15.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nessai-{{ version }}.tar.gz
-  sha256: b88d918faf6d597fbc057fbf76b11d2df6d8820301b368707f31ee66e678e934
+  sha256: 71d41d72f4597bbaf1277605ae6e9c1ffc5b8dde8ef4e39fb72c16437f98817a
 
 build:
   number: 0
